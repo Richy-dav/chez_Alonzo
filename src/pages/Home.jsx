@@ -7,6 +7,8 @@ import Testimonials from "../components/sections/Testimonials";
 import Contact from "../components/sections/Contact";
 import BookNow from "../components/sections/BookNow";
 import Footer from "../components/layout/Footer";
+import { Analytics } from "@vercel/analytics/react";
+
 
 const Home = () => {
     return (
@@ -18,6 +20,7 @@ const Home = () => {
         <Contact />
         <BookNow/>
         <Footer />
+        <Analytics />
         </>
     );
 };
